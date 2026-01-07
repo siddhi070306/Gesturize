@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #111;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glow-box {
+  box-shadow: 0 0 20px rgba(66, 153, 225, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-box:hover {
+  box-shadow: 0 0 40px rgba(168, 85, 247, 0.6);
+}
