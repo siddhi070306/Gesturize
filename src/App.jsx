@@ -83,7 +83,7 @@ function App() {
       statusColor = "text-blue-500";
     }
     if (name === "thumbs_up") {
-      statusText = "Wah wah";
+      statusText = "All ok!";
       statusColor = "text-green-500";
     }
 
@@ -153,7 +153,7 @@ function App() {
           {gestureText}
         </h3>
         <div className="mt-4 text-center text-gray-400 text-sm">
-          <p>Show a "Peace" (✌️) or "Thumbs Up" (👍) sign to detect.</p>
+          <p>Above sign shows persons gesture</p>
         </div>
       </div>
 
